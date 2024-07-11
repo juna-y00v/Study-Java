@@ -19,5 +19,6 @@ public class StringGradeEx0_2 {
 
         // 소문자 입력
         int gold = discountService.discount("gold", price);
+        
     }
 }

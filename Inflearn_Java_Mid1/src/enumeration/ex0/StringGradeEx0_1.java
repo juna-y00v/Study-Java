@@ -13,5 +13,6 @@ public class StringGradeEx0_1 {
         System.out.println("BASIC 등급의 할인 금액: " + basic);
         System.out.println("GOLD 등급의 할인 금액: " + gold);
         System.out.println("DIAMOND 등급의 할인 금액: " + diamond);
+
     }
 }
