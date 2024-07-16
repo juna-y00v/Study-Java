@@ -13,6 +13,8 @@ public class NetworkClientV2 {
     public void connect() throws NetworkClientExceptionV2 {
         if (connectError) {
             throw new NetworkClientExceptionV2("connectError", address + " 서버 연결 실패");
+            //중간에 다른 예외가 발생했다고 가정
+            //throw new RuntimeException("ex");
         }
         //연결 성공
         System.out.println(address + " 서버 연결 성공 ");
