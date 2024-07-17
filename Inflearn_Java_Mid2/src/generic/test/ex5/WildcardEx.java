@@ -29,7 +29,7 @@ public class WildcardEx {
         return t;
     }
 
-    static Animal printAndReturWildcard(Box<? extends Animal> box) {
+    static Animal printAndReturnWildcard(Box<? extends Animal> box) {
         Animal animal = box.get();
         System.out.println("이름 = " + animal.getName());
         return animal;
