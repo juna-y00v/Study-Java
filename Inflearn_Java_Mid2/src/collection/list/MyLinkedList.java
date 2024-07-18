@@ -33,8 +33,8 @@ public class MyLinkedList<E> implements MyList<E> {
             newNode.next = first;
             first = newNode;
         } else {
-            Node prev = getNode(index - 1);
-            newNode = prev.next;
+            Node<E> prev = getNode(index - 1);
+            newNode.next = prev.next;
             prev.next = newNode;
         }
         size++;
