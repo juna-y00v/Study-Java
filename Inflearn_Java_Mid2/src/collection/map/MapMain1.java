@@ -41,6 +41,5 @@ public class MapMain1 {
         for (Integer value : values) {
             System.out.println("value = " + value);
         }
-
     }
 }
